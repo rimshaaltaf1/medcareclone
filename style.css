@@ -1,0 +1,336 @@
+*{
+    /* border: 1px solid red; */
+}
+header .row-1{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+header .row-1 .txt p{
+    padding-left: 60px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif; 
+    color: rgba(0, 0, 0, 0.596); 
+}
+header .row-1 .txt p:hover{
+    color: #0250d9;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+header .row-1 .txt p i{
+    padding-right: 10px;
+    font-size: 18px;
+}
+header .row-1 .font i{
+    color: rgba(0, 0, 0, 0.596); 
+    padding-left: 18px;
+    padding-top: 12px;
+}
+header .row-1 .font i:hover{
+    color: #0250d9;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+header .row-2{
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 1px;
+    background-color: #fff;
+    z-index: 1;
+}
+header .row-2 .img img{
+    padding: 18px 60px;
+    cursor: pointer;
+}
+header .row-2 .nav  ul li{
+    list-style-type: none;
+    padding: 18px 15px;
+}
+header .row-2 .nav  ul li a{
+    text-decoration: none;
+    color: black;
+}
+header .row-2 .nav  ul li a:hover{
+    color: #0250d9;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+header>img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.sec-2{
+    height: 1220px;
+}
+.sec-2 .row-1{
+    width: 100%;
+}
+.sec-2 .row-1 .txt{
+    position: absolute;
+    top: 240px;
+    padding-left: 70px;
+}
+.sec-2 .row-1 .txt .button1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0250d9;
+    font-size: 14px;
+    height: 45px;
+    width: 150px;
+    border: 1px solid #0250d9;
+}
+.sec-2 .row-1 .txt .button1:hover{
+    background-color: #fff;
+    color: #0250d9;
+    border: 1px solid white;
+    transition: 0.2s ease-in;
+}
+.sec-2 .row-1 .txt .button2{
+    font-size: 14px;
+    background-color: #ffffff00;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #0250d9;
+    height: 45px;
+    width: 130px;
+    margin-left: 20px;
+}
+.sec-2 .row-1 .txt .button2:hover{
+    color: #fff;
+    background-color: #0250d9;
+    transition: 0.2s ease-in;
+}
+.sec-2 .row-2{
+    width: 100%;
+    background-image: url(img/pic2.webp);
+    padding: 20px;
+}
+.sec-2 .row-2 div{
+    height: 160px;
+    width: 320px;
+    background-color: #fff;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+.sec-2 .row-2 div h5 i{
+    color: #0250d9;
+}
+.sec-2 .row-2 div p{
+    color: rgb(123, 123, 123);
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.sec-2 .row-3{
+    width: 100%;
+}
+.sec-2 .row-4{
+    width: 100%;
+}
+.sec-2 .row-4 .txt{
+    border: 1px solid rgb(199, 199, 199);
+    padding: 50px 30px;
+    width: 340px;
+    height: 350px;
+    background-color: #fff;
+    z-index: 1;
+}
+.sec-2 .row-4 .txt .p2:hover{
+    color: #0250d9;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.sec-3{
+    height: 2350px;
+}
+.sec-3 .row-1{
+    width: 100%;
+}
+.sec-3 .row-1 .img1{
+    position: absolute;
+    top: 1585px;
+    width: 670px;
+}
+.sec-3 .row-1 .guest .txt{
+    position: absolute;
+    top: 1630px;
+    left: 750px;
+}
+.sec-3 .row-1 .guest .txt .p2:hover{
+    color: #0250d9;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.sec-3 .row-2{
+    width: 100%;
+}
+.sec-3 .row-3{
+    width: 100%;
+}
+.sec-3 .row-3 .txt{
+    border: 1px solid rgb(226, 226, 226);
+    width: 350px;
+    height: 490px;
+    margin-bottom: 120px;
+}
+.sec-3 .row-3 .txt .p2 i:hover{
+    color: #0250d9;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.sec-3 .row-4{
+    width: 100%;
+}
+.sec-3 .row-4 .guest{
+    width: 1000px;
+    height: 700px;
+    box-shadow: 0.5px 0.5px 20px #b5b5b5;
+    justify-content: center;
+    margin-left: 140px;
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.sec-3 .row-4 .guest div input,textarea{
+    height: 40px; 
+    width: 420px;
+    border: 1px solid rgb(187, 187, 187);
+    padding-left: 10px;
+    font-size: 14px;
+}
+.sec-3 .row-4 .guest div .button1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #0250d9;
+    font-size: 14px;
+    height: 47px;
+    width: 160px;
+    border: 1px solid #0250d9;
+}
+.sec-3 .row-4 .guest div .button1:hover{
+    background-color: #fff;
+    color: #0250d9;
+    border: 1px solid white;
+    transition: 0.2s ease-in;
+}
+.sec-4{
+    height: 2250px;
+}
+.sec-4 .row-1{
+    width: 100%;
+    height: 460px;
+}
+.sec-4 .row-2{
+    width: 100%;
+}
+.sec-4 .row-3{
+    width: 100%;
+}
+.sec-4 .row-3 .txt{
+    width: 320px;
+    height: 520px;
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+.sec-4 .row-3 .txt h4:hover, p span:hover{
+    color: #0250d9;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.sec-4 .row-4{
+    width: 1275px;
+    height: 350px;
+}
+.sec-4 .row-4 div{
+    color: black;
+    margin-top: 90px;
+}
+.sec-4 .row-4 div h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.sec-4 .row-4 div p{
+    color: #6e6e6ec3;
+    padding-top: 20px;
+    line-height: 2px;
+}
+.sec-4 .row-4 div p:hover{
+    color: #0250d9;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.sec-4 .row-4 div input{
+    border: 1px solid rgb(223, 222, 222);
+    height: 47px;
+    width: 270px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.sec-4 .row-4 div button{
+    border: 1.5px solid #0250d9;
+    background-color: #0250d9;
+    height: 46px;
+    padding: 0px 16px;
+    margin-top: 10px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: absolute;
+    top: 5632px;
+    right: 30px;
+}
+.sec-4 .row-4 div button i{
+    font-size:  20px;
+}
+.sec-4 .row-5{
+    padding-top: 60px;
+    width: 1275px;
+    height: 150px;
+    color: #000;
+}
+.sec-4 .row-5 .txt p span{
+    cursor: pointer;
+    color: #0250d9;
+}
+.sec-4 .row-5 .font i{
+    color: grey;
+    border: 1px solid #6e6e6ec3;
+}
+.sec-4 .row-5 .font i:hover{
+    color: #fff;
+    background-color: #0250d9;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.sec-4 .row-5 .font .fb{
+    background-color: #ffffff21;
+    width: 35px;
+    height: 30px;
+    padding: 6px 12px;
+    margin-right: 5px;
+}
+.sec-4 .row-5 .font .tw{
+    background-color: #ffffff21;
+    width: 35px;
+    height: 30px;
+    padding: 6px 10px;
+    margin-right: 5px;
+}
+.sec-4 .row-5 .font .globe{
+    background-color: #ffffff21;
+    width: 35px;
+    height: 30px;
+    padding: 6px 10px;
+    margin-right: 5px;
+}
+.sec-4 .row-5 .font .bihance{
+    background-color: #ffffff21;
+    width: 35px;
+    height: 30px;
+    padding: 6px 9px;
+}
+.sec-4 hr{
+    width: 1200px;
+    color: rgb(215, 215, 215);
+}
